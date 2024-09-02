@@ -1,0 +1,11 @@
+Python Functions:-
+
+
+functions----->inbuilt function----->argument types----->inner function          ------>lambda function------->Decorator
+                                     1)positional         & recursive function            1)map     2)filter
+                                     2)Default                    
+                                     3)keyword
+                                     4)variable length
+   def cal_age(year):
+       return 2024_year
+   print(cal_age(1983))
