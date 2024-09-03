@@ -9,3 +9,45 @@ functions----->inbuilt function----->argument types----->inner function         
    def cal_age(year):
        return 2024_year
    print(cal_age(1983))
+   
+ Argument types:-
+ ===============
+   
+   
+        Positional arguments:-            Default argumets:-               Keyword arguments:-            Variable length arguments:-
+        -----------------------         -------------------------       ------------------------------   ------------------------------
+        def calc(a,b):                   def calc(a,b,c):                 def calc(a,b):                 def calc(a*):
+        {here a,b are formal                 print(a+b+c)                     print(a-b)                     print(a)
+        arguments}
+            print(a-b)                    calc(10,20,30)                  calc(a=100, b=200)             calc()
+            {here we can change a,b       calc(10,20)                     calc(b=200,a=100)              calc(10)
+            arguments then the output      calc(1,2)
+            will be changed                                                                              calc(10,20)
+            those arguments are 
+            called positional
+            arguments}
+            
+          cal(100,200)
+          {here 100,200 are
+          actual parameter}
+
+Inner function:- Inside a function writing a function is called inner function.
+===================
+def outer():
+    print('GM')
+    def inner():
+        print('GA')
+    inner()
+outer()
+
+Name less function/Anonymus function:-It is called "Lambda", Lambda is a keyword.
+==================================
+lambda x:x+1
+  r1=add(100)
+  print(r1)
+  
+  {here x:x+1-->n function,no def keyword,no return keyword}{to execute x:x+1 we have to use keyword it is lambda wher x=lambda x:x+1}
+
+
+
+          
