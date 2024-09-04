@@ -1,7 +1,7 @@
 Python Functions:-
 
 
-functions----->inbuilt function----->argument types----->inner function          ------>lambda function------->Decorator
+functions----->inbuilt function----->argument types----->inner function         ------>lambda function------->Decorator
                                      1)positional         & recursive function            1)map     2)filter
                                      2)Default                    
                                      3)keyword
@@ -40,7 +40,7 @@ def outer():
     inner()
 outer()
 
-Name less function/Anonymus function:-It is called "Lambda", Lambda is a keyword.
+Name less function/Anonymus function:-It is called "Lambda", Lambda is a keyword,lambda is also called as nameless function.
 ==================================
 lambda x:x+1
   r1=add(100)
@@ -49,5 +49,34 @@ lambda x:x+1
   {here x:x+1-->n function,no def keyword,no return keyword}{to execute x:x+1 we have to use keyword it is lambda wher x=lambda x:x+1}
 
 
+lambda syntax:-
+---------------
+update=lambda name : name lower()
+x=lambda arg-list: expression
 
+python sequence:-sequence means group of elements.
+-------------------
+string
+list
+tuple
+set
+dict
+bytes
+byte
+range
+
+
+            map function:-                                                           filter function:-
+ -------------------------------------------------------------------------------------------------------------------------------------------
+  syntax:-    map(function,sequence)                                            filter(function,sequence)
+executing the provided function for ever element.                           executing the provided function for ever element. 
+based on functionality new element will occur.                                based on condition new element will occur.                              
+          
+          
+          
+          
+          
+          
+          
+          
           
