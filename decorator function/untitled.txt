@@ -1,0 +1,17 @@
+Decorator:-
+1)Decorator is a function,
+2)it take function as a argument,it modify the functionality;
+3)return the modified function.
+
+
+def outer():
+    print('outer function')
+    
+    
+    print(id(inner))
+    return inner
+    
+x=outer()        outer function:
+  x()             inner function
+  x()             inner function
+  x()             inner functon
