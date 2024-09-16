@@ -1,0 +1,11 @@
+Method:-class contain methods.
+<class,list>
+<Class,tuple>
+<Class,string>
+Module:-
+1)inbuilt module
+2)user defined module
+->Group of var,functions,class 
+1]Inbuilt Module:-
+=>math,random,csv,json
+=>each module contain variables,functions and classes.
